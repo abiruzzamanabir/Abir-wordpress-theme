@@ -45,7 +45,7 @@ function abir_customization_register($wp_customize)
             'description'=> 'If you want to change or update your footer,you can do it here.',
         ));
         $wp_customize->add_setting('abir_copyright_section',array(
-            'default'=> '&copy; Copyright 2022 | Abiruzzaman',
+            'default'=> '© Copyright 2022 | <a href="https://www.facebook.com/abiruzzaman.17">Abiruzzaman Abir</a>',
         ));
     
         $wp_customize-> add_control('abir_copyright_section',array(
