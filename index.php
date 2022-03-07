@@ -38,7 +38,7 @@ get_header(); ?>
                     } ?></div>
             </div>
             <div class="col-md-3">
-                <h2>This is Sidebar</h2>
+                <?php get_sidebar();?>
             </div>
         </div>
     </div>
