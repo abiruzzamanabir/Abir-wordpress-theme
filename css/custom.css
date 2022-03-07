@@ -1,9 +1,41 @@
 /*=========================
 common style
 ===========================*/
+body{
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  line-height: 1.5em;
+}
+p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  line-height: 1.5em;
+}
+h1,h2,h3,h4,h5,h6{
+  font-size: "Oswald", sans-serif;
+  line-height: 1.5em;
+}
+
 
 img {
   max-width: 100%;
+}
+
+a.read-more{
+  background-color: #F46B38;
+  color: #fff;
+  font-size: 15px;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 25px;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+a.read-more:hover{
+  background-color: #262626;
 }
 
 /*=========================
@@ -144,6 +176,92 @@ Menu Position
 
 #header_area.center_menu img {
   max-width: 25%;
+}
+/*=========================
+Index style
+===========================*/
+#body_area{
+  padding: 45px 0;
+}
+#body_area .blog_area{
+  width: 100%;
+  margin-bottom: 17px;
+  background-color: #f3f3f3;
+  padding: 15px;
+
+}
+#body_area .post_thumb{
+  overflow: hidden;
+  width: 100%;
+  margin-bottom: 15px;
+
+}
+#body_area .post_thumb img{
+  transition: 0.5s;
+  width: 100%;
+  display: block;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+#body_area .post_thumb:hover img{
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+#body_area .post_details{
+  width: 100%;
+
+}
+#body_area .post_details h2{
+  font-family: 'Roboto',sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+
+}
+#body_area .post_details h2 a{
+  color: #262626;
+  text-decoration: none;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+#body_area .post_details h2 a:hover{ 
+  color: #F46B38;
+  text-decoration: none;
+}
+
+/*=========================
+page nav style
+===========================*/
+
+#page_nav{
+  
+}
+#page_nav p.pages{
+  background-color: #F46B38;
+  color: #fff;
+  padding: 5px 10px;
+}
+#page_nav p.pages span{
+  display: inline-block;
+  padding: 0px 5px;
+}
+
+#page_nav .page-numbers{
+background-color: #F46B38;
+color: #fff;
+display: inline-block;
+text-decoration: none;
+padding: 5px 10px;
+margin-right: 5px;
+}
+#page_nav .page-numbers.current,#page_nav  .page-numbers:hover{ background-color: #262626; transition: 0.5s; -webkit-transition: 0.5s; -moz-transition: 0.5s; -ms-transition: 0.5s; -o-transition: 0.5s;
 }
 
 

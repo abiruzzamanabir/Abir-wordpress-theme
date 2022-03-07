@@ -45,13 +45,35 @@ function abir_customization_register($wp_customize)
             'description'=> 'If you want to change or update your footer,you can do it here.',
         ));
         $wp_customize->add_setting('abir_copyright_section',array(
-            'default'=> '© Copyright 2022 | <a href="https://www.facebook.com/abiruzzaman.17">Abiruzzaman Abir</a>',
+            'default'=> '© Copyright 2022 | ',
         ));
     
         $wp_customize-> add_control('abir_copyright_section',array(
             'label'=> 'Copyright Text',
             'description'=> 'You Can Update Your Copyright Text From Here.',
             'setting' => 'abir_copyright_section',
+            'section' => 'abir_footer_option',
+        ));
+
+        $wp_customize->add_setting('abir_copyright_section_link',array(
+            'default'=> 'https://www.facebook.com/',
+        ));
+    
+        $wp_customize-> add_control('abir_copyright_section_link',array(
+            'label'=> 'Copyright link',
+            'description'=> 'You Can Update Your Copyright Link From Here.',
+            'setting' => 'abir_copyright_section_link',
+            'section' => 'abir_footer_option',
+        ));
+
+        $wp_customize->add_setting('abir_copyright_section_link_text',array(
+            'default'=> 'Abir',
+        ));
+    
+        $wp_customize-> add_control('abir_copyright_section_link_text',array(
+            'label'=> 'Copyright link text',
+            'description'=> 'You Can Update Your Copyright Link Text From Here.',
+            'setting' => 'abir_copyright_section_link_text',
             'section' => 'abir_footer_option',
         ));
     
