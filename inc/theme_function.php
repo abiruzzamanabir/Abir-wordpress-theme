@@ -56,7 +56,7 @@ function abir_customization_register($wp_customize)
         ));
 
         $wp_customize->add_setting('abir_copyright_section_link',array(
-            'default'=> 'https://www.facebook.com/',
+            'default'=> 'https://www.facebook.com/abiruzzaman.17',
         ));
     
         $wp_customize-> add_control('abir_copyright_section_link',array(
@@ -67,7 +67,7 @@ function abir_customization_register($wp_customize)
         ));
 
         $wp_customize->add_setting('abir_copyright_section_link_text',array(
-            'default'=> 'Abir',
+            'default'=> 'Abiruzzaman Abir',
         ));
     
         $wp_customize-> add_control('abir_copyright_section_link_text',array(
