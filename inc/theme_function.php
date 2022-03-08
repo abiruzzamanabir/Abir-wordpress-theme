@@ -67,7 +67,7 @@ function abir_customization_register($wp_customize)
         ));
 
         $wp_customize->add_setting('abir_copyright_section_link_text',array(
-            'default'=> 'Abiruzzaman Abir',
+            'default'=> 'Abiruzzaman',
         ));
     
         $wp_customize-> add_control('abir_copyright_section_link_text',array(
