@@ -76,7 +76,6 @@ function abir_customization_register($wp_customize)
             'setting' => 'abir_copyright_section_link_text',
             'section' => 'abir_footer_option',
         ));
-    
     }
     
     add_action('customize_register','abir_customization_register');

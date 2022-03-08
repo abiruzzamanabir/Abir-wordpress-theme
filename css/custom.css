@@ -390,10 +390,12 @@ Footer style
 ===========================*/
 #footer {
   background-color: #292929;
-  padding: 20px 0;
   color: #fff;
   border-bottom: 1px solid #ddd;
 }
+/* #footer .child_sidebar{
+  padding: 20px 0;
+} */
 #footer .child_sidebar ul li a {
   color: #fff;
 }
@@ -402,10 +404,15 @@ Footer style
 Copyright style
 ===========================*/
 #copyright_area {
+  /* position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%; */
   background-color: #292929;
   padding: 20px 0;
   color: #fff;
 }
+
 
 #copyright_area p {
   margin: 0;
